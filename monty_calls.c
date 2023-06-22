@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+monty_t monty;
+
 /**
  * main- Entry point
  * @argc: args count
@@ -35,12 +37,12 @@ void op_choose(stack_t **stack, char *opcode)
 		{"pint", pint},
 		{"pop", pop},
 		{"swap", swap},
-		{"add", add},
+		{"add", add_h},
 		{"nop", nop},
-		{"sub", sub},
+		{"sub", sub_h},
 		{"div", div_h},
-		{"mul", mul},
-		{"mod", mod},
+		{"mul", mul_h},
+		{"mod", mod_h},
 		{"pchar", pchar},
 		{"pstr", pstr},
 		{"rotl", rotl},

@@ -5,11 +5,11 @@
 #include <unistd.h>
 
 /**
- * add - adds the top two elements of the stack.
+ * add_h - adds the top two elements of the stack.
  * @stack: double list
  * @linenumber: orderly arrangement and positioning.
  */
-void add(stack_t **stack, __attribute__((unused))unsigned int linenumber)
+void add_h(stack_t **stack, __attribute__((unused))unsigned int linenumber)
 {
 	stack_t *keys;
 
@@ -30,11 +30,11 @@ void add(stack_t **stack, __attribute__((unused))unsigned int linenumber)
 	}
 }
 /**
- * sub - subtracts the top element of the stack from the second top element.
+ * sub_h - subtracts the top element of the stack from the second top element.
  * @stack: double list
  * @linenumber: orderly arrangement and positioning
  */
-void sub(stack_t **stack, __attribute__((unused))unsigned int linenumber)
+void sub_h(stack_t **stack, __attribute__((unused))unsigned int linenumber)
 {
 	stack_t *keys;
 
@@ -87,11 +87,11 @@ void div_h(stack_t **stack, __attribute__((unused))unsigned int linenumber)
 	}
 }
 /**
- * mul - multiplies the second top element of the stack with the top element.
+ * mul_h - multiplies the second top element of the stack with the top element.
  * @stack: double list
  * @linenumber: orderly arrangement and positioning.
  */
-void mul(stack_t **stack, __attribute__((unused))unsigned int linenumber)
+void mul_h(stack_t **stack, __attribute__((unused))unsigned int linenumber)
 {
 	stack_t *keys;
 
@@ -112,12 +112,12 @@ void mul(stack_t **stack, __attribute__((unused))unsigned int linenumber)
 	}
 }
 /**
- * mod - The opcode mod computes the rest of the division,
+ * mod_h - The opcode mod computes the rest of the division,
  * of the second top element of the stack by the top element of the stack.
  * @stack: double list
  * @linenumber: orderly arrangement and positioning.
  */
-void mod(stack_t **stack, __attribute__((unused))unsigned int linenumber)
+void mod_h(stack_t **stack, __attribute__((unused))unsigned int linenumber)
 {
 	stack_t *keys;
 
